@@ -7,6 +7,9 @@ const app = express();
 
 connectDB(); // MongoDB Connection
 
+// MIDDLEWARES
+app.use(express.json({ extended: false })); // Body parser
+
 app.get("/", (req, res) =>
    res.json({ msg: "Welcome to the ContactKeeper API" })
 );
