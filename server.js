@@ -1,6 +1,11 @@
+require("dotenv").config();
 const express = require("express");
 
+const connectDB = require("./config/db");
+
 const app = express();
+
+connectDB(); // MongoDB Connection
 
 app.get("/", (req, res) =>
    res.json({ msg: "Welcome to the ContactKeeper API" })
