@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 
 /* Global Styles */
 :root {
@@ -16,7 +16,7 @@
 }
 
 body {
-   font-family: "Roboto", sans-serif;
+   font-family: "Montserrat", sans-serif;
    font-size: 1rem;
    line-height: 1.6;
    background-color: #fff;
